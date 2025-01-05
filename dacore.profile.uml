@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Hc4KoMu7Ee-oQs-VPk1sQA" name="dacore">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_HekMsMu7Ee-oQs-VPk1sQA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_HekMscu7Ee-oQs-VPk1sQA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+</uml:Profile>
