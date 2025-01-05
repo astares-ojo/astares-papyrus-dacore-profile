@@ -1,0 +1,16 @@
+Class {
+	fillColor: #ffffce;
+}
+
+Package {
+	fillColor: orange;
+}
+
+[appliedStereotypes~="Trait"] {
+	fillColor: lightGreen;
+	lineColor: black;
+}
+
+[appliedStereotypes~="Package Tag"] {
+	fillColor: lightBlue;	
+}
