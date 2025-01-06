@@ -66,9 +66,7 @@
         <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__BBJCMvLEe-oQs-VPk1sQA" name="base_Package" ordered="false">
           <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
         </eStructuralFeatures>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="__BBJCsvLEe-oQs-VPk1sQA" name="Color" ordered="false" lowerBound="1">
-          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
-        </eStructuralFeatures>
+       
       </eClassifiers>
     </contents>
     <contents xmi:type="ecore:EPackage" xmi:id="_mW6cEcvKEe-oQs-VPk1sQA" name="dacore" nsURI="http:///schemas/dacore/_mW6cEMvKEe-oQs-VPk1sQA/1" nsPrefix="dacore">
@@ -128,10 +126,7 @@
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mW6cN8vKEe-oQs-VPk1sQA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_RJxI4MvKEe-oQs-VPk1sQA"/>
         <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_mW6cOMvKEe-oQs-VPk1sQA" name="base_Package" ordered="false">
           <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Package"/>
-        </eStructuralFeatures>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_mW6cOsvKEe-oQs-VPk1sQA" name="Color" ordered="false" lowerBound="1">
-          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
-        </eStructuralFeatures>
+        </eStructuralFeatures>        
       </eClassifiers>
     </contents>
     <contents xmi:type="ecore:EPackage" xmi:id="_55rcosvAEe-oQs-VPk1sQA" name="dacore" nsURI="http:///schemas/dacore/_55rcoMvAEe-oQs-VPk1sQA/0" nsPrefix="dacore">
