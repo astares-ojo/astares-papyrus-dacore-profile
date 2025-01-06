@@ -1,3 +1,11 @@
+Class {
+	fillColor: #5494BF;	
+}
+
+Class[appliedStereotypes~="Metaclass"] {
+	fillColor: #FBF1E2;
+}
+
 Stereotype {
-	fillColor: #FBF1E2;	
+	fillColor: #5494BF;	
 }
