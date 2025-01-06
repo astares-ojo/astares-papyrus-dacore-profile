@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Hc4KoMu7Ee-oQs-VPk1sQA" name="dacore" metaclassReference="_Au3dsMu_Ee-oQs-VPk1sQA _Au8WMMu_Ee-oQs-VPk1sQA _Au8WMcu_Ee-oQs-VPk1sQA">
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Hc4KoMu7Ee-oQs-VPk1sQA" name="dacore" metaclassReference="_Au3dsMu_Ee-oQs-VPk1sQA _Au8WMMu_Ee-oQs-VPk1sQA _Au8WMcu_Ee-oQs-VPk1sQA _feilJsvBEe-oQs-VPk1sQA">
   <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_55rcocvAEe-oQs-VPk1sQA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_feilIMvBEe-oQs-VPk1sQA" source="PapyrusVersion">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_feilIcvBEe-oQs-VPk1sQA" key="Version" value="0.0.0"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_feilIsvBEe-oQs-VPk1sQA" key="Comment" value="&lt;undefined>"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_feilI8vBEe-oQs-VPk1sQA" key="Copyright" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_feilJMvBEe-oQs-VPk1sQA" key="Date" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_feilJcvBEe-oQs-VPk1sQA" key="Author" value="&lt;undefined>"/>
+    </eAnnotations>
     <contents xmi:type="ecore:EPackage" xmi:id="_55rcosvAEe-oQs-VPk1sQA" name="dacore" nsURI="http:///schemas/dacore/_55rcoMvAEe-oQs-VPk1sQA/0" nsPrefix="dacore">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_55rct8vAEe-oQs-VPk1sQA" source="PapyrusVersion">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_55rcuMvAEe-oQs-VPk1sQA" key="Version" value="0.0.1"/>
@@ -44,6 +51,9 @@
   <elementImport xmi:type="uml:ElementImport" xmi:id="_Au8WMcu_Ee-oQs-VPk1sQA" alias="Property">
     <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
   </elementImport>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_feilJsvBEe-oQs-VPk1sQA" alias="Model">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Model"/>
+  </elementImport>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_HekMsMu7Ee-oQs-VPk1sQA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
@@ -85,5 +95,17 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Extension" xmi:id="_1YZCwMvAEe-oQs-VPk1sQA" name="E_Namespace_Package13" memberEnd="_1YZCwcvAEe-oQs-VPk1sQA _1YZCwsvAEe-oQs-VPk1sQA">
     <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_1YZCwcvAEe-oQs-VPk1sQA" name="extension_Namespace" type="_Qn82QMu_Ee-oQs-VPk1sQA" aggregation="composite" association="_1YZCwMvAEe-oQs-VPk1sQA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_jbHvcMvBEe-oQs-VPk1sQA" name="Application">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_p7BLEsvBEe-oQs-VPk1sQA" name="base_Model" association="_p7BLEMvBEe-oQs-VPk1sQA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Model"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p7BLE8vBEe-oQs-VPk1sQA"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_p7BLEMvBEe-oQs-VPk1sQA" name="E_Application_Model17" memberEnd="_p7BLEcvBEe-oQs-VPk1sQA _p7BLEsvBEe-oQs-VPk1sQA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_p7BLEcvBEe-oQs-VPk1sQA" name="extension_Application" type="_jbHvcMvBEe-oQs-VPk1sQA" aggregation="composite" association="_p7BLEMvBEe-oQs-VPk1sQA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_rMA44MvBEe-oQs-VPk1sQA" name="System">
+    <generalization xmi:type="uml:Generalization" xmi:id="_syUIUMvBEe-oQs-VPk1sQA" general="_jbHvcMvBEe-oQs-VPk1sQA"/>
   </packagedElement>
 </uml:Profile>
