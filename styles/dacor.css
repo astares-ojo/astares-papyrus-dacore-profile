@@ -2,6 +2,10 @@ Class {
 	fillColor: #ffffce;
 }
 
+Class[isAbstract="true"] { 
+	fillColor: #ebebbe;
+}
+
 Package {
 	fillColor: orange;
 }
