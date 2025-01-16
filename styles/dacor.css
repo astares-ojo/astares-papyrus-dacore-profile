@@ -1,17 +1,22 @@
-Class {
+Class[appliedStereotypes~="Class"] {
 	fillColor: #ffffce;
 }
 
-Class[isAbstract="true"] { 
+Class[appliedStereotypes~="Class"][isAbstract="true"] {
 	fillColor: #ebebbe;
 }
 
-Package {
-	fillColor: orange;
+Class[appliedStereotypes~="Trait"] {
+	fillColor: lightGreen;
+	lineColor: black;
 }
 
-[appliedStereotypes~="Trait"] {
-	fillColor: lightGreen;
+Package[appliedStereotypes~="Folder"] {
+	fillColor: lightYellow;
+}
+
+Package[appliedStereotypes~="Package"] {
+	fillColor: orange;
 	lineColor: black;
 }
 
