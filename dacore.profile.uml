@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Hc4KoMu7Ee-oQs-VPk1sQA" name="dacore" metaclassReference="_Au3dsMu_Ee-oQs-VPk1sQA _Au8WMMu_Ee-oQs-VPk1sQA _Au8WMcu_Ee-oQs-VPk1sQA _feilJsvBEe-oQs-VPk1sQA">
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Hc4KoMu7Ee-oQs-VPk1sQA" name="dacore" metaclassReference="_Au3dsMu_Ee-oQs-VPk1sQA _Au8WMMu_Ee-oQs-VPk1sQA _Au8WMcu_Ee-oQs-VPk1sQA _feilJsvBEe-oQs-VPk1sQA _nWwwoNP7Ee-_ZOeestTYkA">
   <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_55rcocvAEe-oQs-VPk1sQA" source="http://www.eclipse.org/uml2/2.0.0/UML">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_feilIMvBEe-oQs-VPk1sQA" source="PapyrusVersion">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_feilIcvBEe-oQs-VPk1sQA" key="Version" value="0.0.0"/>
@@ -234,6 +234,9 @@
   <elementImport xmi:type="uml:ElementImport" xmi:id="_feilJsvBEe-oQs-VPk1sQA" alias="Model">
     <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Model"/>
   </elementImport>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_nWwwoNP7Ee-_ZOeestTYkA" alias="Stereotype">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Stereotype"/>
+  </elementImport>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_HekMsMu7Ee-oQs-VPk1sQA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
@@ -334,5 +337,14 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Extension" xmi:id="_51RcwMvLEe-oQs-VPk1sQA" name="E_Application_Package21" memberEnd="_51RcwcvLEe-oQs-VPk1sQA _51RcwsvLEe-oQs-VPk1sQA">
     <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_51RcwcvLEe-oQs-VPk1sQA" name="extension_Application" type="_jbHvcMvBEe-oQs-VPk1sQA" aggregation="composite" association="_51RcwMvLEe-oQs-VPk1sQA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_q2b8gNP7Ee-_ZOeestTYkA" name="Trait">
+    <generalization xmi:type="uml:Generalization" xmi:id="_t9aUgNP7Ee-_ZOeestTYkA" general="_D2t_cMu_Ee-oQs-VPk1sQA"/>
+    <icon xmi:type="uml:Image" xmi:id="_zq-7UNP7Ee-_ZOeestTYkA" content="-119%80%78%71%13%10%26%10%0%0%0%13%73%72%68%82%0%0%0%16%0%0%0%16%8%6%0%0%0%31%-13%-1%97%0%0%0%85%73%68%65%84%120%94%99%24%6%64%80%80%-48%76%-57%80%103%-94%-114%-111%-50%36%12%108%-120%31%-117%-119%-119%-71%51%-88%106%-87%-42%108%120%-73%-11%63%57%24%100%9%101%6%24%66%13%88%-8%116%-39%127%114%48%-60%0%77%-43%-102%-106%11%-99%-1%-55%-63%112%3%40%-13%-126%-26%-80%-16%2%69%6%80%-100%18%7%28%0%0%92%-73%-60%126%-40%94%12%-34%0%0%0%0%73%69%78%68%-82%66%96%-126%" format="Papyrus">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zq-7UdP7Ee-_ZOeestTYkA" source="image_papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zq-7UtP7Ee-_ZOeestTYkA" key="image_name_key" value="traitIcon"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zq-7U9P7Ee-_ZOeestTYkA" key="image_kind_key" value="icon"/>
+      </eAnnotations>
+    </icon>
   </packagedElement>
 </uml:Profile>
